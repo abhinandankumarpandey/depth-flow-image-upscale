@@ -1,10 +1,3 @@
-Here's a sample `README.md` file tailored for your GitHub project. It includes installation instructions and usage details, based on the dependencies and structure shown in your provided code.
-
----
-
-# DepthFlow 🌌
-
-DepthFlow is a tool that generates animated depth-based videos from images using AI-powered depth estimation and upscaling models. This can be used to create stunning visual effects, animations, or 3D-like transitions from still images.
 
 ## 🧰 Features
 - AI-powered **depth estimation** using advanced models.
@@ -22,22 +15,8 @@ Make sure you have the following installed before proceeding:
 - [Python](https://www.python.org/) >= 3.9
 - [Pip](https://pip.pypa.io/en/stable/installation/)
 
-### Step-by-step Guide
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/DepthFlow.git
-   cd DepthFlow
-   ```
 
-2. **Install Python dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   If you don't have a `requirements.txt` file yet, you can generate it using the list below or run:
-   ```bash
-   pip freeze > requirements.txt
-   ```
 
 ### Required Dependencies
 The core dependencies used in this project include:
@@ -71,7 +50,7 @@ pip install gradio dotmap attrs pillow typer tqdm numpy opencv-python torch tran
 ### Launch the Web Interface
 Once everything is installed, simply run the main script:
 ```bash
-python DepthGradio.py
+python filename.py
 ```
 This will start a Gradio web server. Open the link in your browser and begin exploring!
 
